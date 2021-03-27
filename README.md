@@ -21,6 +21,7 @@ $ /Applications/Python {version}/Install Certificates.command
 This seems to only be an issue on macOS.
 ## Usage
 update-auth-methods.py will update the authentication methods for all users in a user group.
+
 It will accept arguments to set a web proxy and disable SSL verification, like this:
 ```
 $ update-auth-methods.py --proxy '127.0.0.1:8080' --insecure
