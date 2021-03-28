@@ -31,4 +31,4 @@ $ update-auth-methods.py --proxy '127.0.0.1:8080' --insecure
 These arguments are not required. Disabling SSL verification is HIGHLY discouraged.
 
 Example:
-![](https://andrewspearson.github.io/file-server/repositories/update-auth-methods/update-auth-methods.gif)
+![](https://raw.githubusercontent.com/andrewspearson/file-server/main/repositories/update-auth-methods/update-auth-methods.gif)
