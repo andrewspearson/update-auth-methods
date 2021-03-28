@@ -1,5 +1,5 @@
 # update-auth-methods
-update-auth-methods.py is an interactive script for [updating Tenable.IO user authentication methods](https://developer.tenable.com/reference#users-update-auths).
+update-auth-methods.py is an interactive tool for [updating Tenable.IO user authentication methods](https://developer.tenable.com/reference#users-update-auths).
 
 WARNING: It is possible to lockout accounts with this tool. Do not use this tool if you do not understand how it works.
 ## Requirements
