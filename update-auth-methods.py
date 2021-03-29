@@ -8,7 +8,7 @@ import json
 import os
 
 
-def request(method, host, endpoint, headers=None, data=None, proxy=None, verify=None):
+def request(method, host, endpoint, headers=None, data=None, proxy=None, verify=True):
     request_ = urllib.request.Request('https://' + host + endpoint)
     request_.method = method
     request_.add_header('accept', 'application/json')
