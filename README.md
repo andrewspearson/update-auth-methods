@@ -1,7 +1,9 @@
 # update-auth-methods
 update-auth-methods.py is an interactive tool for [updating Tenable.IO user authentication methods](https://developer.tenable.com/reference#users-update-auths).
 
-This can be especially useful if you have enabled SAML authentication and want to disable local Tenable.IO authentication.
+This can be especially useful if:
+- You have enabled SAML authentication and want to disable local Tenable.IO authentication.
+- You have created an API user and want to disable GUI login.
 
 WARNING: It is possible to lockout accounts with this tool. Do not use this tool if you do not understand how it works.
 ## Requirements
