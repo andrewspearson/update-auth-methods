@@ -30,7 +30,7 @@ update-auth-methods.py will update the authentication methods for all users in a
 
 It will accept arguments to set a web proxy and disable SSL verification, like this:
 ```
-$ update-auth-methods.py --proxy '127.0.0.1:8080' --insecure
+update-auth-methods.py --proxy '127.0.0.1:8080' --insecure
 ```
 These arguments are not required. Disabling SSL verification is HIGHLY discouraged.
 
