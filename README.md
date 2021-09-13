@@ -12,17 +12,17 @@ WARNING: It is possible to lockout accounts with this tool. Do not use this tool
 update-auth-methods.py is a dependency free, standalone Python program. Just download it and run it.
 ### git
 ```
-$ git clone https://github.com/andrewspearson/update-auth-methods.git
+git clone https://github.com/andrewspearson/update-auth-methods.git
 ```
 ### curl
 ```
-$ curl https://raw.githubusercontent.com/andrewspearson/update-auth-methods/main/update-auth-methods.py -O
+curl https://raw.githubusercontent.com/andrewspearson/update-auth-methods/main/update-auth-methods.py -O
 ```
 
 **NOTE:** macOS users running Python 3.6+ will need to [install certificates](https://bugs.python.org/issue28150).
 TLDR, run this command:
 ```
-$ /Applications/Python {version}/Install Certificates.command
+/Applications/Python {version}/Install Certificates.command
 ```
 This seems to only be an issue on macOS.
 ## Usage
